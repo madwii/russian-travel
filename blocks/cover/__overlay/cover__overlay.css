@@ -1,0 +1,16 @@
+.cover__overlay {
+z-index: 2;
+display: flex;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background: #2A2C2F;
+opacity: 0.3;
+transition: opacity 0.3s ease-in-out;
+}
+
+.cover__overlay:hover {
+opacity: 0.8;
+}
