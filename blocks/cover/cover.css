@@ -28,11 +28,12 @@ color: #FFFFFF;
     .cover {
     min-height: 480px;
     margin-bottom: 88px;
-    }
+  }
+}
 
-    @media (max-width: 767px) {
-    .cover {
-    min-height: 200px;
-    margin-bottom: 64px;
-    }
-    }
+@media (max-width: 767px) {
+  .cover {
+  min-height: 200px;
+  margin-bottom: 64px;
+  }
+  }
